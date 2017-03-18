@@ -1,0 +1,79 @@
+'scopeName': 'source.wren'
+'name': 'Wren'
+'fileTypes': [
+  'wren'
+]
+'patterns': [
+  {
+    'begin': '/\\*'
+    'end': '\\*/'
+    'name': 'comment.block.wren'
+  }
+  {
+    'begin': '//'
+    'end': '$\\n?'
+    'name': 'comment.line.wren'
+  }
+  {
+    'begin': '\''
+    'end': '\''
+    'name': 'string.quoted.single.wren'
+  }
+  {
+    'begin': '"'
+    'end': '"'
+    'name': 'string.quoted.double.wren'
+  }
+  {
+    'match': '\\b(class|construct|foreign|import|in|is|null|static|super|this|var)\\b'
+    'name': 'keyword.reserved.wren'
+  }
+  {
+    'match': '\\b(if|else|return|for|while|break)\\b'
+    'name': 'keyword.control.flow-control.wren'
+  }
+  {
+    'match': '\\b(true|false)\\b'
+    'name': 'string.boolean.wren'
+  }
+  {
+    'match': '\\#\\w+'
+    'name': 'meta.preprocessor.wren'
+  }
+  {
+    'match': '\\b[A-Z_]+\\b'
+    'name': 'entity.other.attribute-name.wren'
+  }
+  {
+    'match': '(-|\\.)?\\b[0-9]+(\\.[0-9]+)?\\b'
+    'name': 'constant.numeric.wren'
+  }
+  {
+    'match': '(\\w|[\\+|-|\\*|/|%|=|!|\\^|~|\\||\\?|\\<|\\>|\\&])+(?=\\s*\\()'
+    'name': 'support.function.wren'
+  }
+  {
+    'match': '\\+|-|\\*|/|%|=|!|\\^|~|\\||\\?|\\<|\\>|\\&'
+    'name': 'keyword.operator.wren'
+  }
+  {
+    'match': '[<>]?[\\.]{1,3}[<>]?'
+    'name': 'keyword.operator.range.wren'
+  }
+  {
+    'match': '\\w+(?=\\s*:)'
+    'name': 'variable.other.wren'
+  }
+  {
+    'match': '(?<=\\w\\.)\\w+(?=\\.|\\s|,|;|\\)|\\?|\\+|\\-|=)'
+    'name': 'support.constant.wren'
+  }
+  {
+    'match': '\\b([A-Z])\\w+\\b'
+    'name': 'entity.name.type.class.wren'
+  }
+  {
+    'match': '\\w'
+    'name': 'variable.other.wren'
+  }
+]

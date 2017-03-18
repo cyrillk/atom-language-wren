@@ -1,0 +1,24 @@
+{
+  "name": "language-wren",
+  "version": "0.1.0",
+  "description": "Adds syntax highlighting for the Wren language to Atom.",
+  "author": "Kirill Kulikov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyrillk/atom-language-wren.git"
+  },
+  "homepage": "https://github.com/cyrillk/atom-language-wren",
+  "bugs": {
+    "url": "https://github.com/cyrillk/atom-language-wren/issues"
+  },
+  "keywords": [
+    "wren",
+    "language",
+    "syntax",
+    "grammar"
+  ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
