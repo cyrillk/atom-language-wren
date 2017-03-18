@@ -1,6 +1,6 @@
 {
   "name": "language-wren",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Adds syntax highlighting for the Wren language to Atom.",
   "author": "Kirill Kulikov",
   "repository": {
